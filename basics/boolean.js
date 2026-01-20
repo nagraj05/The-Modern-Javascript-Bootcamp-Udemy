@@ -1,6 +1,9 @@
-let admin, name;
+let temp = 31;
+let isFreezing = temp !== 31;
+console.log(isFreezing)
 
-name = "john";
-admin = name;
 
-console.log(admin)
+let age = 28;
+
+
+let isChild = age 
