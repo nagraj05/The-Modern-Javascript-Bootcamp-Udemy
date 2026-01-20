@@ -1,0 +1,8 @@
+Java -> Spring boot
+Ruby -> ruby on rails
+Php -> php larvel
+C# -> asp .net
+python -> django, flask
+js -> node js
+golang
+rust
