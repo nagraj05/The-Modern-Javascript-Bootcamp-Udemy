@@ -1,0 +1,16 @@
+How to create a server using express?
+
+import express from "express";
+
+const app = express();
+const port = 3000;
+
+app.listen(port, () => {
+    console.log(`listening on ${port}`)
+})
+
+!---------------------------------------------------------------------------------------!
+COMMAND TO LISTEN ALL THE PORTS THAT ARE BEING LISTENED:
+netstat -ano | finsstr "LISTENING"
+
+!---------------------------------------------------------------------------------------!
