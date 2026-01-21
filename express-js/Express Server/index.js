@@ -12,6 +12,22 @@ app.get("/login", (req, res) => {
   res.send("Login Pagettt");
 });
 
+app.post("/register", (req, res)=> {
+  res.sendStatus(201);
+})
+
+app.put("/user/nagraj", (req,res)=> {
+  res.sendStatus(200);
+})
+
+app.patch("/user/nagraj", (req, res)=> {
+  res.sendStatus(200);
+})
+
+app.delete("/user/nagraj", (req, res)=> {
+  res.sendStatus(200);
+})
+
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
