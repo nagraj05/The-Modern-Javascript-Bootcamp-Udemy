@@ -1,0 +1,7 @@
+HTTP Request
+
+GET = request resource
+POST = sending resource
+PUT = replace a resource
+PATCH = patch up a resource
+DELETE = delete resource
