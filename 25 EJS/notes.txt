@@ -1,0 +1,6 @@
+<%= variable %>
+<% console.log("hello") %> You can write js but no output
+<%- <h1>Hello</h1> %> You can write HTML
+<%% %%> To show ejs (escaped)
+<%# %> comment
+<%- include("<FILE NAME>")%>
