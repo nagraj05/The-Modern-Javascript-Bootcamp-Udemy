@@ -1,0 +1,8 @@
+end point
+query parameter starts with ? and key value pair and use & for multiple query parameters
+path-parameters
+
+
+!---------------------------------------!
+JSON
+jsonviewer.stack.hu
