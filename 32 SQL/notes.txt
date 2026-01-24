@@ -1,0 +1,17 @@
+CREATE TABLE table_name(
+    id int NOT NULL,
+    first_name string,
+    last_name string,
+    address string,
+    PRIMARY KEY (id)
+)
+
+INSERT INTO table_name
+VALUES (1, 'Nagraj','Tadingi, 'Rayagada')
+
+UPDATE table_name
+SET address = 'Hyderabad'
+WHERE id = 1
+
+DELETE table_name
+WHERE id = 1
